@@ -9,5 +9,4 @@ auto-*.d.ts
 .idea
 .history
 *-lock.yaml
-*-lock.json
 .vitepress/cache
