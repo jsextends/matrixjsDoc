@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "matrix矩阵",
   description: "矩阵相关的数学计算库",
+  base: "matrixjsDoc",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -12,9 +13,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '文档',
         items: [
-          { text: 'common', link: '/api/common' },
+          { text: '通用', link: '/api/common' },
+          { text: '二维向量', link: '/api/vec2' },
         ]
       }
     ],
