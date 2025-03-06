@@ -91,6 +91,18 @@ const vec2 = new Vec2()
  */
 ```
 
+### set
+
+```js
+/**
+ * 设置二维向量的某个分量的值
+ * 
+ * @param {Number} x 
+ * @param {Number} y 
+ * @returns {Number}
+ */
+```
+
 ### clone
 
 ```js
@@ -240,7 +252,8 @@ const vec2 = new Vec2()
 ### dot
 
 > 两个二维向量的点积返回一个数值
-> 大小为$|\vec a| \times |\vec b| \times \cos\theta $转为坐标计算为$x_1 * y_1 + x_2 * y_2$
+
+大小为$|\vec a| \times |\vec b| \times \cos\theta $转为坐标计算为$x_1 * y_1 + x_2 * y_2$
 
 ```js
 /**
@@ -253,7 +266,10 @@ const vec2 = new Vec2()
 
 ### cross
 
-> 两个二维向量的叉积返回一个三维向量，方向为与两个二维向量组成的平面垂直，大小为$|\vec a| \times |\vec b| \times \sin\theta $转为坐标计算为$x_1 * y_2 + x_2 * y_1$
+> 两个二维向量的叉积返回一个三维向量，方向为与两个二维向量组成的平面垂直，大小为
+
+$|\vec a| \times |\vec b| \times \sin\theta $转为坐标计算为$x_1 * y_2 + x_2 * y_1$
+表示为$(0,0, x_1 * y_2 + x_2 * y_1)$
 
 ```js
 /**
@@ -268,7 +284,7 @@ const vec2 = new Vec2()
 
 ```js
 /**
- * 向二维向量b为坐标原点将向量偏移一个角度
+ * 向二维向量vec2为坐标原点将向量偏移一个角度
  * 
  * @param {Vec2} vec2 
  * @param {Number} rad
@@ -276,7 +292,8 @@ const vec2 = new Vec2()
  */
 ```
 
-我们首先确定当基准点为坐标原点时位置P进行旋转的变换方程，如下图所示
+平移vec2为基准点
+首先确定当基准点为坐标原点时位置P进行旋转的变换方程，如下图所示
 
 ![点旋转](./assets/1.png)
 
@@ -313,7 +330,7 @@ $$
 \end{bmatrix}
 $$
 
-旋转是一种移动对象而不改变其形状的刚体变换
+最后将基准点平移到vec2
 
 ### angle
 
