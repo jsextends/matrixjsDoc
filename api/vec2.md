@@ -16,7 +16,7 @@ const vec2 = new Vec2()
 
 | 属性名 | 描述 | 类型 |
 | - | - | - |
-| _value | 存放二维向量各个分量的数据 | [ARRAY_TYPE](./common.md/#ARRAY_TYPE) |
+| _value | 存放二维向量各个分量的数据 | [ARRAY_TYPE](./common.md#ARRAY_TYPE) |
 
 ## 静态方法
 
