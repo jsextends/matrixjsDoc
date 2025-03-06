@@ -14,11 +14,9 @@ hero:
       link: /api
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 向量
+    details: 有大小和方向的量
+  - title: 矩阵
+    details: 一个按照长方阵列排列的复数或实数集合
 ---
 

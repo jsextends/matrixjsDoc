@@ -103,7 +103,6 @@ const vec4 = new Vec4()
  * @param {Number} y 
  * @param {Number} z
  * @param {Number} w
- * @returns {Number}
  */
 ```
 
@@ -124,7 +123,6 @@ const vec4 = new Vec4()
  * 复制另一个四维向量的值
  * 
  * @param {Vec4} vec4
- * @returns {Vec4}
  */
 ```
 
@@ -135,7 +133,6 @@ const vec4 = new Vec4()
  * 两个四维向量的各个分量相加
  * 
  * @param {Vec4} vec4
- * @returns {Vec4}
  */
 ```
 
@@ -146,7 +143,6 @@ const vec4 = new Vec4()
  * 两个四维向量的各个分量相减
  * 
  * @param {Vec4} vec4
- * @returns {Vec4}
  */
 ```
 
@@ -157,7 +153,6 @@ const vec4 = new Vec4()
  * 两个四维向量的各个分量相乘
  * 
  * @param {Vec4} vec4
- * @returns {Vec4}
  */
 ```
 
@@ -168,7 +163,6 @@ const vec4 = new Vec4()
  * 两个四维向量的各个分量相除
  * 
  * @param {Vec4} vec4
- * @returns {Vec4}
  */
 ```
 
@@ -179,7 +173,6 @@ const vec4 = new Vec4()
  * 缩放一个四维向量
  * 
  * @param {Number} ratio
- * @returns {Vec4}
  */
 ```
 
@@ -189,7 +182,8 @@ const vec4 = new Vec4()
 /**
  * 返回两个四维向量的欧几米德距离
  * 
- * @returns {Vec4}
+ * @param {Vec4} vec4
+ * @returns {Number}
  */
 ```
 
@@ -199,7 +193,8 @@ const vec4 = new Vec4()
 /**
  * 返回两个四维向量的欧几米德距离的平方
  * 
- * @returns {Vec4}
+ * @param {Vec4} vec4
+ * @returns {Number}
  */
 ```
 
@@ -219,7 +214,7 @@ const vec4 = new Vec4()
 /**
  * 返回四维向量到坐标原点的欧几米德距离的平分
  * 
- * @returns {Vec4}
+ * @returns {Number}
  */
 ```
 
@@ -229,7 +224,6 @@ const vec4 = new Vec4()
 /**
  * 负向量
  * 
- * @returns {Vec4}
  */
 ```
 
@@ -239,7 +233,6 @@ const vec4 = new Vec4()
 /**
  * 各个向量去倒数
  * 
- * @returns {Vec4}
  */
 ```
 
@@ -249,7 +242,6 @@ const vec4 = new Vec4()
 /**
  * 归一化向量,也就是四维向量的长度为1
  * 
- * @returns {Vec4}
  */
 ```
 
@@ -275,7 +267,7 @@ const vec4 = new Vec4()
  * 判断2个四维向量是否严格相对
  * 
  * @param {Vec4} vec4 
- * @returns {vec4}
+ * @returns {boolean}
  */
 ```
 
@@ -286,7 +278,7 @@ const vec4 = new Vec4()
  * 判断2个四维向量是否相对相等，具体实现参考公共部分的equals方法
  * 
  * @param {Vec4} vec4 
- * @returns {vec4}
+ * @returns {Boolean}
  */
 ```
 

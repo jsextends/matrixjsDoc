@@ -101,7 +101,6 @@ const vec3 = new Vec3()
  * @param {Number} x 
  * @param {Number} y 
  * @param {Number} z
- * @returns {Number}
  */
 ```
 
@@ -122,7 +121,6 @@ const vec3 = new Vec3()
  * 复制另一个三维向量的值
  * 
  * @param {Vec3} vec3
- * @returns {Vec3}
  */
 ```
 
@@ -133,7 +131,6 @@ const vec3 = new Vec3()
  * 两个三维向量的各个分量相加
  * 
  * @param {Vec3} vec3
- * @returns {Vec3}
  */
 ```
 
@@ -144,7 +141,6 @@ const vec3 = new Vec3()
  * 两个三维向量的各个分量相减
  * 
  * @param {Vec3} vec3
- * @returns {Vec3}
  */
 ```
 
@@ -155,7 +151,6 @@ const vec3 = new Vec3()
  * 两个三维向量的各个分量相乘
  * 
  * @param {Vec3} vec3
- * @returns {Vec3}
  */
 ```
 
@@ -166,7 +161,6 @@ const vec3 = new Vec3()
  * 两个三维向量的各个分量相除
  * 
  * @param {Vec3} vec3
- * @returns {Vec3}
  */
 ```
 
@@ -177,7 +171,6 @@ const vec3 = new Vec3()
  * 缩放一个三维向量
  * 
  * @param {Number} ratio
- * @returns {Vec3}
  */
 ```
 
@@ -187,7 +180,8 @@ const vec3 = new Vec3()
 /**
  * 返回两个三维向量的欧几米德距离
  * 
- * @returns {Vec3}
+ * @param {Vec3} vec3
+ * @returns {Number}
  */
 ```
 
@@ -197,7 +191,8 @@ const vec3 = new Vec3()
 /**
  * 返回两个三维向量的欧几米德距离的平方
  * 
- * @returns {Vec3}
+ * @param {Vec3} vec3
+ * @returns {Number}
  */
 ```
 
@@ -207,7 +202,7 @@ const vec3 = new Vec3()
 /**
  * 返回三维向量到坐标原点的欧几米德距离
  * 
- * @returns {Vec3}
+ * @returns {Number}
  */
 ```
 
@@ -217,7 +212,7 @@ const vec3 = new Vec3()
 /**
  * 返回三维向量到坐标原点的欧几米德距离的平分
  * 
- * @returns {Vec3}
+ * @returns {Number}
  */
 ```
 
@@ -227,7 +222,6 @@ const vec3 = new Vec3()
 /**
  * 负向量
  * 
- * @returns {Vec3}
  */
 ```
 
@@ -237,7 +231,6 @@ const vec3 = new Vec3()
 /**
  * 各个向量去倒数
  * 
- * @returns {Vec3}
  */
 ```
 
@@ -247,7 +240,6 @@ const vec3 = new Vec3()
 /**
  * 归一化向量,也就是三维向量的长度为1
  * 
- * @returns {Vec3}
  */
 ```
 
@@ -291,7 +283,7 @@ $z = x_1 * y_2 - y_2 * x_1$
  * 
  * @param {Vec3} vec3 
  * @param {Number} rad
- * @returns {Vec3}
+ * 
  */
 ```
 
@@ -314,7 +306,7 @@ $$
  * 
  * @param {Vec3} vec3 
  * @param {Number} rad
- * @returns {Vec3}
+ * 
  */
 ```
 
@@ -337,7 +329,7 @@ $$
  * 
  * @param {Vec3} vec3 
  * @param {Number} rad
- * @returns {Vec3}
+ * 
  */
 ```
 
@@ -379,7 +371,7 @@ $$
  * 判断2个三维向量是否严格相对
  * 
  * @param {Vec3} vec3 
- * @returns {vec3}
+ * @returns {Boolean}
  */
 ```
 
@@ -390,7 +382,7 @@ $$
  * 判断2个三维向量是否相对相等，具体实现参考公共部分的equals方法
  * 
  * @param {Vec3} vec3 
- * @returns {vec3}
+ * @returns {Boolean}
  */
 ```
 

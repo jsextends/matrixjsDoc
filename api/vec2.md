@@ -99,7 +99,6 @@ const vec2 = new Vec2()
  * 
  * @param {Number} x 
  * @param {Number} y 
- * @returns {Number}
  */
 ```
 
@@ -120,7 +119,6 @@ const vec2 = new Vec2()
  * 复制另一个二维向量的值
  * 
  * @param {Vec2} vec2
- * @returns {Vec2}
  */
 ```
 
@@ -131,7 +129,6 @@ const vec2 = new Vec2()
  * 两个二维向量的各个分量相加
  * 
  * @param {Vec2} vec2
- * @returns {Vec2}
  */
 ```
 
@@ -142,7 +139,6 @@ const vec2 = new Vec2()
  * 两个二维向量的各个分量相减
  * 
  * @param {Vec2} vec2
- * @returns {Vec2}
  */
 ```
 
@@ -153,7 +149,6 @@ const vec2 = new Vec2()
  * 两个二维向量的各个分量相乘
  * 
  * @param {Vec2} vec2
- * @returns {Vec2}
  */
 ```
 
@@ -164,7 +159,6 @@ const vec2 = new Vec2()
  * 两个二维向量的各个分量相除
  * 
  * @param {Vec2} vec2
- * @returns {Vec2}
  */
 ```
 
@@ -175,7 +169,6 @@ const vec2 = new Vec2()
  * 缩放一个二维向量
  * 
  * @param {Number} ratio
- * @returns {Vec2}
  */
 ```
 
@@ -185,7 +178,8 @@ const vec2 = new Vec2()
 /**
  * 返回两个二维向量的欧几米德距离
  * 
- * @returns {Vec2}
+ * @param {Vec2} vec2
+ * @returns {Number}
  */
 ```
 
@@ -195,7 +189,8 @@ const vec2 = new Vec2()
 /**
  * 返回两个二维向量的欧几米德距离的平方
  * 
- * @returns {Vec2}
+ * @param {Vec2} vec2
+ * @returns {Number}
  */
 ```
 
@@ -205,7 +200,7 @@ const vec2 = new Vec2()
 /**
  * 返回二维向量到坐标原点的欧几米德距离
  * 
- * @returns {Vec2}
+ * @returns {Number}
  */
 ```
 
@@ -215,7 +210,7 @@ const vec2 = new Vec2()
 /**
  * 返回二维向量到坐标原点的欧几米德距离的平分
  * 
- * @returns {Vec2}
+ * @returns {Number}
  */
 ```
 
@@ -225,7 +220,6 @@ const vec2 = new Vec2()
 /**
  * 负向量
  * 
- * @returns {Vec2}
  */
 ```
 
@@ -235,7 +229,6 @@ const vec2 = new Vec2()
 /**
  * 各个向量去倒数
  * 
- * @returns {Vec2}
  */
 ```
 
@@ -245,7 +238,6 @@ const vec2 = new Vec2()
 /**
  * 归一化向量,也就是二维向量的长度为1
  * 
- * @returns {Vec2}
  */
 ```
 
@@ -288,7 +280,7 @@ $|\vec a| \times |\vec b| \times \sin\theta $转为坐标计算为$x_1 * y_2 + x
  * 
  * @param {Vec2} vec2 
  * @param {Number} rad
- * @returns {Vec2}
+ * 
  */
 ```
 
@@ -358,7 +350,7 @@ $$
  * 判断2个二维向量是否严格相对
  * 
  * @param {Vec2} vec2 
- * @returns {vec2}
+ * @returns {Boolean}
  */
 ```
 
@@ -369,7 +361,7 @@ $$
  * 判断2个二维向量是否相对相等，具体实现参考公共部分的equals方法
  * 
  * @param {Vec2} vec2 
- * @returns {vec2}
+ * @returns {Boolean}
  */
 ```
 
