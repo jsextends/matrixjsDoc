@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "matrix矩阵",
   description: "矩阵相关的数学计算库",
-  base: "matrixjsDoc",
+  base: "/matrixjsDoc/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
