@@ -245,7 +245,10 @@ const vec2 = new Vec2()
 
 > 两个二维向量的点积返回一个数值
 
-大小为$|\vec a| \times |\vec b| \times \cos\theta $转为坐标计算为$x_1 * y_1 + x_2 * y_2$
+大小为
+$|\vec a| \times |\vec b| \times \cos\theta $
+转为坐标计算为
+$x_1 * y_1 + x_2 * y_2$
 
 ```js
 /**
@@ -260,8 +263,11 @@ const vec2 = new Vec2()
 
 > 两个二维向量的叉积返回一个三维向量，方向为与两个二维向量组成的平面垂直，大小为
 
-$|\vec a| \times |\vec b| \times \sin\theta $转为坐标计算为$x_1 * y_2 + x_2 * y_1$
-表示为$(0,0, x_1 * y_2 + x_2 * y_1)$
+$|\vec a| \times |\vec b| \times \sin\theta $
+转为坐标计算为
+$x_1 * y_2 + x_2 * y_1$
+表示为
+$(0,0, x_1 * y_2 + x_2 * y_1)$
 
 ```js
 /**
