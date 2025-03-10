@@ -23,6 +23,9 @@ export default defineConfig({
           { text: '三维向量', link: '/api/vec3' },
           { text: '四维向量', link: '/api/vec4' },
           { text: '二维矩阵', link: '/api/mat2' },
+          { text: '三维矩阵', link: '/api/mat3' },
+          { text: '四维矩阵', link: '/api/mat4' },
+          { text: '四元数', link: '/api/quat' },
         ]
       }
     ],

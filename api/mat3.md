@@ -321,26 +321,6 @@ const mat3 = new Mat3()
  */
 ```
 
-### rotate
-
-```js
-/**
- * 旋转一定角度
- * 
- * @param {Number} rad
- */
-```
-
-### scale
-
-```js
-/**
- * 通过一个三维向量缩放矩阵
- * 
- * @param {Vec2} vec2
- */
-```
-
 ### subtract
 
 ```js
